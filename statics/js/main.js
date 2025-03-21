@@ -144,9 +144,10 @@ function renderPlayerList(data, containerId) {
         sectionDiv.appendChild(headerDiv);
         sectionDiv.appendChild(contentDiv);
         
-        // 添加点击事件
+        // 简化折叠点击事件处理
         headerDiv.addEventListener('click', function() {
-            sectionDiv.classList.toggle('active');
+            const section = this.parentElement;
+            section.classList.toggle('active');
         });
         
         // 添加到容器
@@ -241,9 +242,10 @@ function renderMerchants(containerId) {
         sectionDiv.appendChild(headerDiv);
         sectionDiv.appendChild(contentDiv);
         
-        // 添加点击事件
+        // 简化折叠点击事件处理
         headerDiv.addEventListener('click', function() {
-            sectionDiv.classList.toggle('active');
+            const section = this.parentElement;
+            section.classList.toggle('active');
         });
         
         // 添加到容器

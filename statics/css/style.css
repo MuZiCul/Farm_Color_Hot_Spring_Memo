@@ -476,10 +476,10 @@ body {
 }
 
 .collapsible-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    padding: 0 15px;
+    display: none; /* 默认隐藏 */
+    padding: 15px;
+    background-color: var(--light-bg);
+    border-radius: 0 0 10px 10px;
 }
 
 .collapsible-section.active .collapsible-header {
@@ -492,10 +492,7 @@ body {
 }
 
 .collapsible-section.active .collapsible-content {
-    max-height: 1000px; /* 足够大的值以容纳内容 */
-    padding: 15px;
-    background-color: var(--light-bg);
-    border-radius: 0 0 10px 10px;
+    display: block; /* 激活时显示 */
 }
 
 /* 玩家计数标签 */
