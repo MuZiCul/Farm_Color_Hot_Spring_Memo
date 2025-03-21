@@ -20,398 +20,114 @@
             <h1>农场彩色温泉备忘录</h1>
         </div>
         
-        <div class="warning-box">
-            <p class="warning-text">******非拉勿偷，偷必删+全网拉黑******</p>
-            <p class="notice-text">1. 进群新人请先改昵称为 ID+游戏昵称，例：ID妙妙<br>
-                2. 新增删除请@（温泉看置顶）<br>
-                3. 如果好友许久未通过，请在群内艾特对应的农场主</p>
+        <!-- 导航栏 -->
+        <div class="nav-buttons">
+            <button class="nav-btn active" data-target="main-content">彩色温泉</button>
+            <button class="nav-btn" data-target="merchant-content">俩倍商人</button>
         </div>
-        
-        <div class="section-card">
-            <h2 class="section-title">备忘录更新日记</h2>
-            <p class="update-info">2024.3.17 备忘录更新。</p>
-            <p class="update-info">2024.3.21 设计更好看的ui样式</p>
+
+        <!-- 主内容区域 -->
+        <div id="main-content" class="content-area active">
+            <!-- 警告框 -->
+            <div class="warning-box" id="main-warning-box">
+                <!-- 动态加载警告内容 -->
+            </div>
+            
+            <!-- 更新日志 -->
+            <div class="section-card" id="update-section">
+                <h2 class="section-title">备忘录更新日记</h2>
+                <!-- 动态加载更新日志 -->
+            </div>
+            
+            <!-- 经验区 -->
+            <div class="section-card" id="experience-section">
+                <h2 class="section-title">经验区</h2>
+                <!-- 动态加载经验区内容 -->
+            </div>
+            
+            <!-- 熟练度区 -->
+            <div class="section-card" id="skill-section">
+                <h2 class="section-title">熟练度区</h2>
+                <!-- 动态加载熟练度区内容 -->
+            </div>
+            
+            <!-- 金币区 -->
+            <div class="section-card" id="coin-section">
+                <h2 class="section-title">金币区</h2>
+                <!-- 动态加载金币区内容 -->
+            </div>
+            
+            <!-- 攻略区 -->
+            <div class="section-card" id="guide-section">
+                <h2 class="section-title">攻略区</h2>
+                <!-- 动态加载攻略区内容 -->
+            </div>
+            
+            <!-- 耻辱柱 -->
+            <div class="section-card" id="shame-section">
+                <h2 class="section-title">耻辱柱（偷菜曝光区）</h2>
+                <!-- 动态加载耻辱柱内容 -->
+            </div>
+            
+            <!-- 返回顶部按钮 -->
+            <div class="back-to-top" id="backToTop">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+
+            <!-- 在主内容区域添加返回底部按钮 -->
+            <div class="back-to-bottom" id="backToBottom">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
         </div>
-        
-        <div class="section-card">
-            <h2 class="section-title">经验区</h2>
+
+        <!-- 商人内容区域 -->
+        <div id="merchant-content" class="content-area">
+            <!-- 警告框 -->
+            <div class="warning-box" id="merchant-warning-box">
+                <!-- 动态加载警告内容 -->
+            </div>
             
-            <h3 class="sub-title">加工动物产品获得农场经验提升+24%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:梦中z08</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1059895322')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('梦中z08')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:小朋友559</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('886946117')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('小朋友559')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
+            <!-- 更新日志 -->
+            <div class="section-card" id="merchant-update-section">
+                <h2 class="section-title">备忘录更新日记</h2>
+                <!-- 动态加载更新日志 -->
+            </div>
             
-            <h3 class="sub-title">加工作物产品获得农场经验提升+30%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:曲奇怮</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1293697994')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('曲奇怮')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:空巴瓦</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('696678798')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('空巴瓦')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
+            <!-- 商人信息 -->
+            <div class="section-card" id="merchant-info-section">
+                <!-- 动态加载商人信息 -->
+            </div>
             
-            <h3 class="sub-title">收获作物时农场经验获取提升+8%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:眼里有星河Zvr</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('635212193')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('眼里有星河Zvr')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:6PJd</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('814120697')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('6PJd')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:RedMagician</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1247700275')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('RedMagician')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
+            <!-- 攻略区 -->
+            <div class="section-card" id="merchant-guide-section">
+                <h2 class="section-title">攻略区</h2>
+                <!-- 动态加载攻略区内容 -->
+            </div>
+
+            <!-- 耻辱柱 -->
+            <div class="section-card" id="merchant-shame-section">
+                <h2 class="section-title">耻辱柱（偷菜曝光区）</h2>
+                <!-- 动态加载耻辱柱内容 -->
+            </div>
             
-            <h3 class="sub-title">收获动物时农场经验获取提升+6%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:小禾财露尖尖角</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('460766355')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('小禾财露尖尖角')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:在看月亮吗</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('472621821')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('在看月亮吗')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">鱼塘全水层钓鱼经验+15%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:与卿来噜</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1993522363')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('与卿来噜')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:偷喝汽水ft</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('394458911')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('偷喝汽水ft')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:BB啊BBu</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1879395027')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('BB啊BBu')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="section-card">
-            <h2 class="section-title">熟练度区</h2>
-            
-            <h3 class="sub-title">作物熟练度+40%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:苏沉思26（无需艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1970200405')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('苏沉思26')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:DT丨Silver（无需艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('720457468')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('DT丨Silver')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:纱猫讥笑</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1131453789')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('纱猫讥笑')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:旧谨（请先艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1371978722')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('旧谨')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">动物熟练度获取提升+40%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:都笨</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1371978722')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('都笨')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">钓鱼&鱼卡熟练度+60%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:雅Os</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('570736027')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('雅Os')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:Baymaxdb</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1570210940')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('Baymaxdb')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="section-card">
-            <h2 class="section-title">金币区</h2>
-            
-            <h3 class="sub-title">每日拿取次数+15</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:圆圆呼吸硬糖（无需艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1547059951')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('圆圆呼吸硬糖')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:阿悦不懂真心</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1511132577')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('阿悦不懂真心')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:可乐饼小鱼仔</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1642118988')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('可乐饼小鱼仔')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:像素再见源泉</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1185383571')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('像素再见源泉')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">水族箱效率提升+45%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:萌小只</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1773644104')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('萌小只')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:婚</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1160087600')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('婚')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">鱼饵价格降低+15%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:杏丝</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('524492413')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('杏丝')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:久玥丨</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('749000844')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('久玥丨')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">加工器容量提升+40%</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:琳星公主（无需艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('777621751')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('琳星公主')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:猫饼oxo</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('942674015')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('猫饼oxo')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:Su淼淼是只喵</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1882664727')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('Su淼淼是只喵')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:七载若木</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1682115750')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('七载若木')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">农场丰收概率 【大】</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:留白aD0（无需艾特）</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1000310657')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('留白aD0')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:幼稚zh</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('734545664')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('幼稚zh')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:吃1小口i</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1043749849')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('吃1小口i')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-            
-            <h3 class="sub-title">动物丰收概率提升 【大】</h3>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:半颜R</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('492431669')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('半颜R')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:Cruse诗诗</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1396811409')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('Cruse诗诗')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:窈窈</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1161014933')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('窈窈')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-                <li class="player-item">
-                    <div class="player-info">ID:杨的梦</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('878155484')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('杨的梦')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="section-card">
-            <h2 class="section-title">攻略区</h2>
-            
-            <h3 class="sub-title">温泉攻略</h3>
-            <ul class="tips-list">
-                <li>温泉经验只与自己的温泉等级有关。</li>
-                <li>获取喝茶buff需要泡温泉，坐进去然后喝茶。</li>
-                <li>每周温泉喝茶buff刷新时间为周一早上8点。</li>
-                <li>没有60级的星宝是不能泡温泉和获取喝茶buff的哦。</li>
-                <li>喝茶的buff只能持续24小时。</li>
-                <li>早上8点后可以重新泡温泉获取经验。</li>
-                <li>温泉buff只能同时存在一个，上一个时间没到，强行喝茶会提示你是否替换当前效果。</li>
-            </ul>
-            
-            <h3 class="sub-title">吞吞花攻略</h3>
-            <ul class="tips-list">
-                <li>种植时间：周二晚上9点10-30到周五晚上9点后成熟</li>
-                <li>周五晚上九点10-30分到周日晚上9点后</li>
-                <li>这样每周可以吃两次双倍。</li>
-                <li>成熟期吞噬：普通吃一波。祈愿金色吃一波，再金色变彩色吃一波，菜熟一次可以让吞吞花吃三波收益。</li>
-                <li>周一晚上9点成熟后，收取后不种吞吞花，卡波16/32小时的植物。到周二晚上九点10-30再种吞吞花。周而复始。</li>
-                <li>晚上9点10-30分（小号给吞花祈愿时间）</li>
-                <li>注意：吞吞花成熟后就吞不了了，所以要在成熟前菜先成熟祈愿收取。</li>
-            </ul>
-        </div>
-        <div class="section-card">
-            <h2 class="section-title">耻辱柱（偷菜曝光区）</h2>
-            <ul class="player-list">
-                <li class="player-item">
-                    <div class="player-info">ID:待添加</div>
-                    <div class="copy-buttons">
-                        <button class="copy-btn" onclick="copyText('1100000000')"><i class="layui-icon layui-icon-username"></i>复制UID</button>
-                        <button class="copy-btn" onclick="copyText('待添加')"><i class="layui-icon layui-icon-edit"></i>复制昵称</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- 返回顶部按钮 -->
-        <div class="back-to-top" id="backToTop">
-            <i class="layui-icon layui-icon-top"></i>
+            <!-- 返回顶部按钮 -->
+            <div class="back-to-top" id="backToTop2">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+
+            <!-- 在商人内容区域添加返回底部按钮 -->
+            <div class="back-to-bottom" id="backToBottom2">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
         </div>
     </div>
 
     <!-- 引入Layui JS -->
     <script src="https://www.layuicdn.com/layui-v2.6.8/layui.js"></script>
+    <!-- 引入数据文件 -->
+    <script src="statics/js/common-data.js"></script>
+    <script src="statics/js/player-data.js"></script>
+    <script src="statics/js/merchant-data.js"></script>
     <!-- 引入自定义脚本 -->
     <script src="statics/js/main.js"></script>
 </body>
