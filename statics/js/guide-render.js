@@ -151,7 +151,7 @@ function renderMarketGuide(container) {
         // 添加标签
         if (flower.tag) {
             const tagSpan = document.createElement('span');
-            tagSpan.className = 'layui-badge layui-bg-gray';
+            tagSpan.className = 'layui-badge layui-bg-orange';
             tagSpan.style.marginLeft = '5px';
             tagSpan.textContent = flower.tag;
             nameContainer.appendChild(tagSpan);
