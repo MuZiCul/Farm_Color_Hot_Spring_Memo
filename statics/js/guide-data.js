@@ -38,82 +38,124 @@ const guideData = {
 
     // 商人攻略数据
     marketValueGuide: {
-        title: "商人可售价值参考（仅供参考，与摊主售价有关）",
+        title: "双倍商人售价参考（仅供参考）",
         flowers: [
             {
-                name: "2倍夏腊梅",
+                name: "双倍夏腊梅",
+                tag: "82级-87级触发，X16作物",
                 singleAmount: 1000,
                 singleValue: 0.9,
                 totalAmount: 3000,
                 totalValue: 2.7
             },
             {
-                name: "2倍雪滴花",
+                name: "双倍雪滴花",
+                tag: "88级-93级触发，X16作物",
                 singleAmount: 1800,
                 singleValue: 1.49,
-                totalAmount: 5400,
+                totalAmount: 3600,
                 totalValue: 4.47
             },
             {
-                name: "2倍樱花",
+                name: "双倍樱花",
+                tag: "94级-99级触发，X16作物",
                 singleAmount: 1300,
                 singleValue: 2,
                 totalAmount: 3900,
                 totalValue: 6
             },
             {
-                name: "2倍月季",
+                name: "双倍月季",
+                tag: "100级，X16作物",
                 singleAmount: 1500,
                 singleValue: 2.5,
                 totalAmount: 4500,
                 totalValue: 7.5
             },
             {
-                name: "2倍丁香花",
+                name: "双倍丁香花",
+                tag: "神农·初心触发，X16作物",
                 singleAmount: 1700,
                 singleValue: 3.42,
                 totalAmount: 5100,
                 totalValue: 10.26
             },
             {
-                name: "2倍康乃馨",
+                name: "双倍康乃馨",
+                tag: "神农·初心触发，X8作物",
                 singleAmount: 3400,
                 singleValue: 4.71,
                 totalAmount: 10200,
                 totalValue: 14.13
             },
             {
-                name: "2倍莲花掌",
+                name: "双倍莲花掌",
+                tag: "神农·莹草触发，X16作物",
                 singleAmount: 910,
                 singleValue: 5.2,
                 totalAmount: 2730,
                 totalValue: 15.6
             },
             {
-                name: "2倍莲翘",
+                name: "双倍莲翘",
+                tag: "神农·莹草触发，X8作物",
                 singleAmount: 3600,
                 singleValue: 6.32,
                 totalAmount: 10800,
                 totalValue: 18.96
             },
             {
-                name: "2倍仙客来",
+                name: "双倍仙客来",
+                tag: "神农·百花触发，X16作物",
                 singleAmount: 2100,
                 singleValue: 7.7,
                 totalAmount: 6300,
                 totalValue: 23.1
             },
             {
-                name: "2倍玉蝶",
+                name: "双倍玉蝶",
+                tag: "神农·百花触发，X8作物",
                 singleAmount: 4200,
                 singleValue: 10.26,
                 totalAmount: 12600,
                 totalValue: 30.78
+            },
+            {
+                name: "双倍玄晶莲",
+                tag: "神农·月华触发，X16作物",
+                singleAmount: '未知',
+                singleValue: '未知',
+                totalAmount: '未知',
+                totalValue: '未知'
+            },
+            {
+                name: "双倍紫羽兰",
+                tag: "神农·月华触发，X8作物",
+                singleAmount: '未知',
+                singleValue: '未知',
+                totalAmount: '未知',
+                totalValue: '未知'
+            },
+            {
+                name: "双倍未知花",
+                tag: "神农·圣灵触发，X16作物",
+                singleAmount: '未知',
+                singleValue: '未知',
+                totalAmount: '未知',
+                totalValue: '未知'
+            },
+            {
+                name: "双倍月影兰",
+                tag: "神农·圣灵触发，X8作物",
+                singleAmount: '未知',
+                singleValue: '未知',
+                totalAmount: '未知',
+                totalValue: '未知'
             }
         ],
         notes: [
-            "数据仅供参考，实际价值与摊主售价相关",
-            "总计数量为三次售卖的总数",
+            "数据仅供参考，实际价值与摊主等级相关",
+            "总计数量为三次可售卖的总数",
             "总价值为三次售卖的总价值"
         ]
     }

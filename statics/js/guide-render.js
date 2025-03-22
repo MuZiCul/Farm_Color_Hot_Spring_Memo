@@ -139,11 +139,25 @@ function renderMarketGuide(container) {
         const card = document.createElement('div');
         card.className = 'flower-card';
 
-        // 创建花卉名称
-        const nameDiv = document.createElement('div');
-        nameDiv.className = 'flower-name';
-        nameDiv.textContent = flower.name;
-        card.appendChild(nameDiv);
+        // 创建花卉名称和标签容器
+        const nameContainer = document.createElement('div');
+        nameContainer.className = 'flower-name';
+        
+        // 添加花卉名称
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = flower.name;
+        nameContainer.appendChild(nameSpan);
+
+        // 添加标签
+        if (flower.tag) {
+            const tagSpan = document.createElement('span');
+            tagSpan.className = 'layui-badge layui-bg-gray';
+            tagSpan.style.marginLeft = '5px';
+            tagSpan.textContent = flower.tag;
+            nameContainer.appendChild(tagSpan);
+        }
+
+        card.appendChild(nameContainer);
 
         // 创建价值信息
         const valueInfo = document.createElement('div');
