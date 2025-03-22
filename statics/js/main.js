@@ -106,7 +106,7 @@ function renderPlayerList(data, containerId) {
             // 创建ID文本
             const idSpan = document.createElement('span');
             idSpan.className = 'player-id';
-            idSpan.textContent = `ID:${player.id}`;
+            idSpan.textContent = player.id;
             infoDiv.appendChild(idSpan);
             
             // 如果有note，创建标签
