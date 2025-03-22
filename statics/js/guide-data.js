@@ -83,13 +83,6 @@ const guideData = {
                 totalValue: 14.13
             },
             {
-                name: "2倍莲翘",
-                singleAmount: 3600,
-                singleValue: 6.32,
-                totalAmount: 10800,
-                totalValue: 18.96
-            },
-            {
                 name: "2倍莲花掌",
                 singleAmount: 910,
                 singleValue: 5.2,
@@ -97,11 +90,11 @@ const guideData = {
                 totalValue: 15.6
             },
             {
-                name: "2倍玉蝶",
-                singleAmount: 4200,
-                singleValue: 10.26,
-                totalAmount: 12600,
-                totalValue: 30.78
+                name: "2倍莲翘",
+                singleAmount: 3600,
+                singleValue: 6.32,
+                totalAmount: 10800,
+                totalValue: 18.96
             },
             {
                 name: "2倍仙客来",
@@ -109,6 +102,13 @@ const guideData = {
                 singleValue: 7.7,
                 totalAmount: 6300,
                 totalValue: 23.1
+            },
+            {
+                name: "2倍玉蝶",
+                singleAmount: 4200,
+                singleValue: 10.26,
+                totalAmount: 12600,
+                totalValue: 30.78
             }
         ],
         notes: [
