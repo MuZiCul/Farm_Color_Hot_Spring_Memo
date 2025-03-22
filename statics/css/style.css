@@ -428,7 +428,7 @@ body {
 }
 
 .note-default {
-    background-color: var(--secondary-color); /* 默认颜色 - 其他备注 */
+    background-color: var(--warning-color); /* 默认颜色 - 其他备注 */
 }
 
 /* 商人名称和备注样式 */

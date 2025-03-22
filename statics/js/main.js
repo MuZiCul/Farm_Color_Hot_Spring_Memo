@@ -19,9 +19,9 @@ function copyText(text) {
 
 // 获取备注类型的函数
 function getNoteClass(note) {
-    if (note.includes('无需艾特')) {
+    if (note.includes('无需艾特') || note.includes('无需@')) {
         return 'note-no-mention';
-    } else if (note.includes('请先艾特') || note.includes('艾特')|| note.includes('@')|| note.includes('戳')) {
+    } else if (note.includes('请先艾特') || note.includes('艾特') || note.includes('@') || note.includes('戳')) {
         return 'note-need-mention';
     } else {
         return 'note-default';
