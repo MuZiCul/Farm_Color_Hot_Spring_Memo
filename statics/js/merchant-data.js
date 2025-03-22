@@ -14,6 +14,12 @@ const merchantData = {
             players: [
                 { id: "杨七柒", uid: "1168096522", note: "", leaveTime: "3.23号23.00" }
             ]
+        },
+        {
+            type: "月季",
+            players: [
+                { id: "KAYO", uid: "1112366727", note: "艾特黒玫", leaveTime: "3.23号23.00" }
+            ]
         }
     ]
 }; 
