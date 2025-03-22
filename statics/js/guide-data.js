@@ -51,7 +51,7 @@ const guideData = {
                 name: "2倍雪滴花",
                 singleAmount: 1800,
                 singleValue: 1.49,
-                totalAmount: 3600,
+                totalAmount: 5400,
                 totalValue: 4.47
             },
             {
@@ -60,6 +60,13 @@ const guideData = {
                 singleValue: 2,
                 totalAmount: 3900,
                 totalValue: 6
+            },
+            {
+                name: "2倍月季",
+                singleAmount: 1500,
+                singleValue: 2.5,
+                totalAmount: 4500,
+                totalValue: 7.5
             },
             {
                 name: "2倍丁香花",
