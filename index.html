@@ -22,8 +22,9 @@
         
         <!-- 导航栏 -->
         <div class="nav-buttons">
-            <button class="nav-btn active" data-target="main-content">彩色温泉</button>
-            <button class="nav-btn" data-target="merchant-content">俩倍商人</button>
+            <button class="nav-btn active" data-target="main-content">温泉</button>
+            <button class="nav-btn" data-target="merchant-content">商人</button>
+            <button class="nav-btn" data-target="guide-content">攻略</button>
         </div>
 
         <!-- 主内容区域 -->
@@ -89,7 +90,7 @@
             
             <!-- 更新日志 -->
             <div class="section-card" id="merchant-update-section">
-                <h2 class="section-title">更新日记</h2>
+                <h2 class="section-title">手册更新日记</h2>
                 <!-- 动态加载更新日志 -->
             </div>
             
@@ -120,6 +121,48 @@
                 <i class="layui-icon layui-icon-top"></i>
             </div>
         </div>
+
+        <!-- 农场攻略内容区域 -->
+        <div id="guide-content" class="content-area">
+            <!-- 警告框 -->
+            <div class="warning-box" id="guide-warning-box">
+                <!-- 动态加载警告内容 -->
+            </div>
+            
+            <!-- 更新日志 -->
+            <div class="section-card" id="guide-update-section">
+                <h2 class="section-title">手册更新日记</h2>
+                <!-- 动态加载更新日志 -->
+            </div>
+            
+            <!-- 温泉攻略 -->
+            <div class="section-card" id="guide-hotspring-section">
+                <h2 class="section-title">温泉攻略</h2>
+                <!-- 动态加载温泉攻略内容 -->
+            </div>
+            
+            <!-- 摊位攻略 -->
+            <div class="section-card" id="guide-market-section">
+                <h2 class="section-title">商人攻略</h2>
+                <!-- 动态加载摊位攻略内容 -->
+            </div>
+            
+            <!-- 其他攻略 -->
+            <div class="section-card" id="guide-other-section">
+                <h2 class="section-title">吞吞攻略</h2>
+                <!-- 动态加载其他攻略内容 -->
+            </div>
+            
+            <!-- 返回顶部按钮 -->
+            <div class="back-to-top" id="backToTop3">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+
+            <!-- 返回底部按钮 -->
+            <div class="back-to-bottom" id="backToBottom3">
+                <i class="layui-icon layui-icon-top"></i>
+            </div>
+        </div>
     </div>
 
     <!-- 引入Layui JS -->
@@ -128,7 +171,9 @@
     <script src="statics/js/common-data.js"></script>
     <script src="statics/js/player-data.js"></script>
     <script src="statics/js/merchant-data.js"></script>
+    <script src="statics/js/guide-data.js"></script>
     <!-- 引入自定义脚本 -->
+    <script src="statics/js/guide-render.js"></script>
     <script src="statics/js/main.js"></script>
 </body>
 </html>

@@ -171,7 +171,7 @@ function renderMerchants(containerId) {
         // 创建标题
         const titleDiv = document.createElement('div');
         titleDiv.className = 'collapsible-title';
-        titleDiv.textContent = `${merchant.type}信息`;
+        titleDiv.textContent = `${merchant.type}商人`;
         
         headerDiv.appendChild(titleDiv);
         
@@ -253,32 +253,10 @@ function renderMerchants(containerId) {
     });
 }
 
-// 渲染攻略
-function renderGuides(containerId) {
-    const container = document.getElementById(containerId);
-    
-    commonData.guides.forEach(guide => {
-        // 创建攻略标题
-        const h3 = document.createElement('h3');
-        h3.className = 'sub-title';
-        h3.textContent = guide.title;
-        container.appendChild(h3);
-        
-        // 创建攻略列表
-        const ul = document.createElement('ul');
-        ul.className = 'tips-list';
-        
-        guide.tips.forEach(tip => {
-            const li = document.createElement('li');
-            li.textContent = tip;
-            ul.appendChild(li);
-        });
-        
-        container.appendChild(ul);
-    });
-}
 
-// 修改渲染耻辱柱函数，恢复为原来的样式
+    
+
+// 渲染耻辱柱
 function renderShameList(containerId) {
     const container = document.getElementById(containerId);
     
@@ -347,10 +325,12 @@ window.onload = function() {
     // 渲染警告框
     renderWarningBox('main-warning-box');
     renderWarningBox('merchant-warning-box');
+    renderWarningBox('guide-warning-box');
     
     // 渲染所有内容
     renderUpdates('update-section');
     renderUpdates('merchant-update-section');
+    renderUpdates('guide-update-section');
     
     renderPlayerList(playerData.experienceSection, 'experience-section');
     renderPlayerList(playerData.skillSection, 'skill-section');
@@ -358,8 +338,12 @@ window.onload = function() {
     
     renderMerchants('merchant-info-section');
     
+    // 渲染各页面的攻略内容
     renderGuides('guide-section');
     renderGuides('merchant-guide-section');
+    renderGuides('guide-hotspring-section');
+    renderGuides('guide-market-section');
+    renderGuides('guide-other-section');
     
     renderShameList('shame-section');
     renderShameList('merchant-shame-section');
