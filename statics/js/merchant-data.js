@@ -5,15 +5,15 @@ const merchantData = {
         {
             type: "丁香花",
             players: [
-                { id: "萌小只", uid: "1773644104", note: "@萌小只", leaveTime: "3.23号20:24" },
+                { id: "萌小只", uid: "1773644104", note: "", leaveTime: "3.23号20:24" },
                 { id: "上岸小海苔", uid: "387364531", note: "无法搜索", leaveTime: "3.23号20:24" }
             ]
         },
         {
             type: "樱花",
             players: [
-                { id: "杨七柒", uid: "1168096522", note: "@杨七柒", leaveTime: "3.23号23.00" },
-                { id: "夫", uid: "1360929314", note: "@夫", leaveTime: "3.24号14.22" },
+                { id: "杨七柒", uid: "1168096522", note: "", leaveTime: "3.23号23.00" },
+                { id: "夫", uid: "1360929314", note: "", leaveTime: "3.24号14.22" },
             ]
         },
         {

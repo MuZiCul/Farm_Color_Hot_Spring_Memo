@@ -97,7 +97,7 @@ const playerData = {
             title: "加工器容量提升+40%",
             players: [
                 { id: "琳星公主", uid: "777621751", note: "无需艾特" },
-                { id: "猫饼oxo", uid: "942674015", note: "" },
+                { id: "猫饼oxo", uid: "942674015", note: "@猫饼oxo" },
                 { id: "Su淼淼是只喵", uid: "1882664727", note: "" },
                 { id: "七载若木", uid: "1682115750", note: "" }
             ]
@@ -106,7 +106,7 @@ const playerData = {
             title: "农场丰收概率 【大】",
             players: [
                 { id: "留白aD0", uid: "1000310657", note: "无需艾特" },
-                { id: "幼稚zh", uid: "734545664", note: "" },
+                { id: "幼稚zh", uid: "734545664", note: "@幼稚zh" },
                 { id: "吃1小口i", uid: "1043749849", note: "" }
             ]
         },

@@ -115,6 +115,12 @@ function renderPlayerList(data, containerId) {
                 noteSpan.className = `player-note ${getNoteClass(player.note)}`;
                 noteSpan.textContent = player.note;
                 infoDiv.appendChild(noteSpan);
+            }else {
+                const noteSpan = document.createElement('span');
+                const note_text = `@${player.id}`;
+                noteSpan.className = `player-note ${getNoteClass(note_text)}`;
+                noteSpan.textContent = note_text;
+                infoDiv.appendChild(noteSpan);
             }
             
             const buttonsDiv = document.createElement('div');
@@ -205,6 +211,12 @@ function renderMerchants(containerId) {
                 const noteSpan = document.createElement('span');
                 noteSpan.className = `player-note ${getNoteClass(player.note)}`;
                 noteSpan.textContent = player.note;
+                nameSpan.appendChild(noteSpan);
+            }else {
+                const noteSpan = document.createElement('span');
+                const note_text = `@${player.id}`;
+                noteSpan.className = `player-note ${getNoteClass(note_text)}`;
+                noteSpan.textContent = note_text;
                 nameSpan.appendChild(noteSpan);
             }
             
