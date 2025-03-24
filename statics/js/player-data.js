@@ -7,8 +7,8 @@ const playerData = {
             players: [
                 { id: "朝歌To", uid: "000", note: "@3号是狼呀快跑" },
                 { id: "肉丸子你吃不", uid: "000", note: "" },
-                { id: "半颜吖", uid: "000", note: "" },
-                { id: "悲伤筱雨", uid: "000", note: "@海与小汐" },
+                { id: "半颜吖", uid: "978974992", note: "" },
+                { id: "悲伤筱雨", uid: "1663383006", note: "@海与小汐" },
                 { id: "拥抱太阳的小葵", uid: "000", note: "" }
             ]
         },{
@@ -28,7 +28,7 @@ const playerData = {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
                 { id: "泛清波摘遍", uid: "000", note: "" },
-                { id: "000", uid: "000", note: "" }
+                { id: "赵妙妙", uid: "000", note: "" }
             ]
         },
         {
@@ -70,7 +70,8 @@ const playerData = {
         {
             title: "动物熟练度获取提升+40%",
             players: [
-                { id: "晚江词", uid: "000", note: "" }
+                { id: "晚江词", uid: "000", note: "" },
+                { id: "清沂", uid: "000", note: "@脆脆脆桃子" },
             ]
         },
         {
