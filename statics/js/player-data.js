@@ -36,7 +36,7 @@ const playerData = {
             players: [
                 { id: "好奇了吗", uid: "000", note: "" },
                 { id: "XXXYy", uid: "000", note: "" },
-                { id: "000", uid: "000", note: "" }
+                { id: "成", uid: "000", note: "@蝉" }
             ]
         },
         {
@@ -80,7 +80,7 @@ const playerData = {
                 { id: "甜甜芙宝", uid: "1558308455", note: "" },
                 { id: "炸诈吒弹", uid: "000", note: "" },
                 { id: "柳月河下", uid: "000", note: "" },
-                { id: "000", uid: "000", note: "" }
+                { id: "蝉", uid: "000", note: "" }
             ]
         }
     ],
