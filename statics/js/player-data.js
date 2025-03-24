@@ -43,7 +43,7 @@ const playerData = {
         {
             title: "收获动物时农场经验获取提升+6%",
             players: [
-                { id: "000", uid: "460766355", note: "" },
+                { id: "我菜我认叭", uid: "000", note: "" },
                 { id: "000", uid: "472621821", note: "" }
             ]
         },
@@ -81,6 +81,7 @@ const playerData = {
                 { id: "甜甜芙宝", uid: "1558308455", note: "" },
                 { id: "炸诈吒弹", uid: "000", note: "" },
                 { id: "柳月河下", uid: "000", note: "" },
+                { id: "七载若木", uid: "000", note: "" },
                 { id: "蝉", uid: "000", note: "" }
             ]
         }
