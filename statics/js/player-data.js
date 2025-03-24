@@ -9,7 +9,7 @@ const playerData = {
                 { id: "肉丸子你吃不", uid: "000", note: "" },
                 { id: "半颜吖", uid: "000", note: "" },
                 { id: "悲伤筱雨", uid: "000", note: "@海与小汐" },
-                { id: "000", uid: "000", note: "" }
+                { id: "拥抱太阳的小葵", uid: "000", note: "" }
             ]
         },{
             title: "加工器容量提升+40%",
