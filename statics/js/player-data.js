@@ -8,7 +8,7 @@ const playerData = {
                 { id: "朝歌To", uid: "000", note: "@3号是狼呀快跑" },
                 { id: "肉丸子你吃不", uid: "000", note: "" },
                 { id: "半颜吖", uid: "000", note: "" },
-                { id: "悲伤筱雨", uid: "000", note: "" },
+                { id: "悲伤筱雨", uid: "000", note: "@海与小汐" },
                 { id: "000", uid: "000", note: "" }
             ]
         },{
