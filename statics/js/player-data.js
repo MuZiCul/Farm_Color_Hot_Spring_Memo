@@ -5,7 +5,7 @@ const playerData = {
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
-                { id: "朝歌To", uid: "000", note: "@3号是狼呀快跑" },
+                { id: "朝歌To", uid: "000", note: "" },
                 { id: "肉丸子你吃不", uid: "000", note: "" },
                 { id: "半颜吖", uid: "978974992", note: "" },
                 { id: "悲伤筱雨", uid: "1663383006", note: "@海与小汐" },
@@ -62,7 +62,7 @@ const playerData = {
         {
             title: "作物熟练度+40%",
             players: [
-                { id: "2号是狼呀快跑", uid: "000", note: "@3号是狼呀快跑" },
+                { id: "2号是狼呀快跑", uid: "000", note: "@朝歌To" },
                 { id: "000", uid: "720457468", note: "" },
                 { id: "000", uid: "1131453789", note: "" },
                 { id: "000", uid: "1371978722", note: "" }
