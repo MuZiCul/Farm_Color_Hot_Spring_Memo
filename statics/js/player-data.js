@@ -7,7 +7,9 @@ const playerData = {
             players: [
                 { id: "朝歌To", uid: "000", note: "@3号是狼呀快跑" },
                 { id: "肉丸子你吃不", uid: "000", note: "" },
-                { id: "半颜吖", uid: "000", note: "" }
+                { id: "半颜吖", uid: "000", note: "" },
+                { id: "悲伤筱雨", uid: "000", note: "" },
+                { id: "000", uid: "000", note: "" }
             ]
         },{
             title: "加工器容量提升+40%",
@@ -75,7 +77,9 @@ const playerData = {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
                 { id: "甜甜芙宝", uid: "000", note: "" },
-                { id: "炸诈吒弹", uid: "000", note: "" }
+                { id: "炸诈吒弹", uid: "000", note: "" },
+                { id: "柳月河下", uid: "000", note: "" },
+                { id: "000", uid: "000", note: "" }
             ]
         }
     ],
@@ -110,7 +114,7 @@ const playerData = {
             title: "农场丰收概率 【大】",
             players: [
                 { id: "不知名媛酱", uid: "000", note: "" },
-                { id: "000", uid: "734545664", note: "@幼稚zh" },
+                { id: "寄恒月", uid: "000", note: "" },
                 { id: "000", uid: "1043749849", note: "" }
             ]
         },
