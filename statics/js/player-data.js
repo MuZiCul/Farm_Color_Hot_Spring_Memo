@@ -28,7 +28,8 @@ const playerData = {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
                 { id: "泛清波摘遍", uid: "000", note: "" },
-                { id: "赵妙妙", uid: "000", note: "" }
+                { id: "赵妙妙", uid: "000", note: "" },
+                { id: "鸿运当头小脆椰", uid: "000", note: "" }
             ]
         },
         {
@@ -100,7 +101,7 @@ const playerData = {
         {
             title: "水族箱效率提升+45%",
             players: [
-                { id: "000", uid: "1773644104", note: "" },
+                { id: "蛊荧", uid: "000", note: "" },
                 { id: "000", uid: "1160087600", note: "" }
             ]
         },
@@ -117,7 +118,8 @@ const playerData = {
             players: [
                 { id: "不知名媛酱", uid: "000", note: "" },
                 { id: "寄恒月", uid: "000", note: "" },
-                { id: "000", uid: "1043749849", note: "" }
+                { id: "心收货摩羯座", uid: "000", note: "" },
+                { id: "童酱quq", uid: "000", note: "" }
             ]
         },
         {
