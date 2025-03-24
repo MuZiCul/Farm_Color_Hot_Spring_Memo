@@ -6,7 +6,8 @@ const playerData = {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
                 { id: "朝歌To", uid: "000", note: "@3号是狼呀快跑" },
-                { id: "肉丸子你吃不", uid: "000", note: "" }
+                { id: "肉丸子你吃不", uid: "000", note: "" },
+                { id: "半颜吖", uid: "000", note: "" }
             ]
         },
         {
@@ -98,7 +99,7 @@ const playerData = {
             players: [
                 { id: "坏小孩", uid: "000", note: "" },
                 { id: "招财小芙", uid: "000", note: "@甜甜芙宝" },
-                { id: "000", uid: "1882664727", note: "" },
+                { id: "姚小白丨", uid: "000", note: "" },
                 { id: "000", uid: "1682115750", note: "" }
             ]
         },
@@ -113,7 +114,7 @@ const playerData = {
         {
             title: "动物丰收概率提升 【大】",
             players: [
-                { id: "000", uid: "492431669", note: "" },
+                { id: "小狗羔羔", uid: "492431669", note: "" },
                 { id: "000", uid: "1396811409", note: "" },
                 { id: "000", uid: "1161014933", note: "" },
                 { id: "000", uid: "878155484", note: "" }
