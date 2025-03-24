@@ -12,9 +12,7 @@ const commonData = {
     
     // 更新日志
     updates: [
-        { date: "2024.3.17", content: "备忘录更新。" },
-        { date: "2024.3.20", content: "添加商人信息。" },
-        { date: "2024.3.21", content: "设计更好看的ui样式。" },
-        { date: "2024.3.22", content: "新增双倍商人售价对比。" }
+        { date: "2024.3.22", content: "新增双倍商人售价对比。" },
+        { date: "2024.3.24", content: "彩色温泉更新" }
     ],
 }; 
