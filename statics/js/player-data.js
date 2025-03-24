@@ -91,7 +91,7 @@ const playerData = {
             players: [
                 { id: "筱筱ui", uid: "000", note: "" },
                 { id: "sugarkitty", uid: "000", note: "" },
-                { id: "000", uid: "1642118988", note: "" },
+                { id: "灯塔街溜子", uid: "000", note: "" },
                 { id: "000", uid: "1185383571", note: "" }
             ]
         },
