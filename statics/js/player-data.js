@@ -70,13 +70,13 @@ const playerData = {
         {
             title: "动物熟练度获取提升+40%",
             players: [
-                { id: "000", uid: "1371978722", note: "" }
+                { id: "晚江词", uid: "000", note: "" }
             ]
         },
         {
             title: "钓鱼&鱼卡熟练度+60%",
             players: [
-                { id: "甜甜芙宝", uid: "000", note: "" },
+                { id: "甜甜芙宝", uid: "1558308455", note: "" },
                 { id: "炸诈吒弹", uid: "000", note: "" },
                 { id: "柳月河下", uid: "000", note: "" },
                 { id: "000", uid: "000", note: "" }
