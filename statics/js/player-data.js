@@ -1,7 +1,7 @@
 // 玩家数据文件
 const playerData = {
-    // 经验区数据
-    experienceSection: [
+    // 玩家数据
+    commonSection: [
         {
             title: "加工动物产品获得农场经验提升+24%",
             players: [
@@ -9,7 +9,19 @@ const playerData = {
                 { id: "肉丸子你吃不", uid: "000", note: "" },
                 { id: "半颜吖", uid: "000", note: "" }
             ]
+        },{
+            title: "加工器容量提升+40%",
+            players: [
+                { id: "坏小孩", uid: "000", note: "" },
+                { id: "招财小芙", uid: "000", note: "@甜甜芙宝" },
+                { id: "姚小白丨", uid: "000", note: "" },
+                { id: "000", uid: "1682115750", note: "" }
+            ]
         },
+
+    ],
+    // 经验区数据
+    experienceSection: [
         {
             title: "加工作物产品获得农场经验提升+30%",
             players: [
@@ -91,15 +103,6 @@ const playerData = {
             players: [
                 { id: "000", uid: "524492413", note: "" },
                 { id: "000", uid: "749000844", note: "" },
-                { id: "000", uid: "1682115750", note: "" }
-            ]
-        },
-        {
-            title: "加工器容量提升+40%",
-            players: [
-                { id: "坏小孩", uid: "000", note: "" },
-                { id: "招财小芙", uid: "000", note: "@甜甜芙宝" },
-                { id: "姚小白丨", uid: "000", note: "" },
                 { id: "000", uid: "1682115750", note: "" }
             ]
         },

@@ -343,7 +343,8 @@ window.onload = function() {
     renderUpdates('update-section');
     renderUpdates('merchant-update-section');
     renderUpdates('guide-update-section');
-    
+
+    renderPlayerList(playerData.commonSection, 'common-section');
     renderPlayerList(playerData.experienceSection, 'experience-section');
     renderPlayerList(playerData.skillSection, 'skill-section');
     renderPlayerList(playerData.coinSection, 'coin-section');
